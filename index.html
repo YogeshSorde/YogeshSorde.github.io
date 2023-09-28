@@ -4,53 +4,376 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="nav.css">
-    <link rel="stylesheet" type="text/css" href="content.css">
-    <link rel="stylesheet" type="text/css" href="about.css">
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    
 
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+   
+    <title>Yogesh Sorde - Portfolio</title>
 </head>
 <body>
- <nav>
-    <div class="navbar-container">
-      <div class="navbar-left">
-        <span class="logo">Yogesh  Sorde</span>
-      </div>
-      <div class="navbar-right">
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Skills</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Resume</a></li>
-        </ul>
-      </div>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
     </div>
-  </nav>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Y<span>S</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#project" class="menu-btn">Projects</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a
+                    onclick="window.open('https://drive.google.com/file/d/1rVzzcTjCUkedC_srU1qYIv4pehFTs5-U/view?usp=sharing')" 
+                    href="Images/Yogesh_Sorde.pdf"
+                    download="Yogesh_Sorde.pdf" target="_blank" class="menu-btn">Resume</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- home section start -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, my name is</div>
+                <div class="text-2">Yogesh Sorde</div>
+                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <a href="https://drive.google.com/drive/folders/1Nh_b4HTf9Et_Rz1TC_AjcOxyqi3z76t8?usp=sharing" target="_blank">Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./Yo.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">I'm Yogesh Sorde and I'm a <span class="typing2"></span></div>
+                    <p>An intrigued, aspiring Back-End developer,
+                        highly skilled in engineering sturdy and scalable applications
+                        and web API designs using Java, Spring and SpringBoot.
+                        Effective collaborator with an immense
+                        passion for building good applications, also have experience in frontend designs. 
+                        looking forward to a great career as a Java Back-End Developer.</p>
+                    <!-- <a href="#">Download CV</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Web Development</div>
+                        <p>Proficient in providing web applications.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-chart-line"></i>
+                        <!-- <div class="text">REST API</div> -->
+                        <div class="text">API</div>
+                        <p>Provides RESTful API's.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <!-- <div class="text">System Design</div> -->
+                        <div class="text">Frontend Design</div>
+                        <p>Proficient in Restructuring Existing Applications</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+
+                    <div class="skills-images">
+                        <img src="./Images/java.svg" alt="java">
+                    </div>
+
+                    <div class="skills-images">
+                        <img src="./Images/hibernatesvg.svg" alt="Hibernate">
+                    </div>
+
+                    
+                    <div class="skills-images">
+                        <img src="./Images/github.svg" alt="github">
+                    </div>
+
+                    
+                    <div class="skills-images">
+                        <img src="./Images/spring.svg" alt="github">
+                    </div>
+
+                </div>
+                <div class="column right">
+                    <div class="skills-images">
+                        <img src="./Images/mysql.svg" alt="">
+                    </div>
+
+                    <div class="skills-images">
+                        <img src="./Images/css.svg" alt="">
+                    </div>
+
+                    <div class="skills-images">
+                        <img src="./Images/javascript.svg" alt="">
+                    </div>
+
+                    <div class="skills-images">
+                        <img src="./Images/html.svg" alt="">
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <!-- Tools section start  -->
+
+            <h2 class="title">Tools </h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="skills-images">
+                        <img src="./Images/java.svg" alt="java">
+                    </div>
+
+                    <div class="skills-images">
+                        <img src="./Images/postman.svg" alt="Hibernate">
+                    </div>
+                    <div class="skills-images">
+                        <img src="./Images/github.svg" alt="github">
+                    </div>
+
+                    
+                   
+
+                </div>
+                <div class="column right">
+                    <div class="skills-images">
+                        <img src="./Images/swagger.svg" alt="">
+                    </div>
+
+                    <div class="skills-images">
+                        <img src="./Images/git.svg" alt="">
+                    </div>
+                    
+
+                    
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- project section start -->
+    <section class="project" id="project">
+        <div class="max-width">
+            <h2 class="title">Projects</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <img src="./Images/Smile.png " alt="">
+                        <div class="text">Smile</div>
+                        <p>This is a clone of Myntra Which is an Online Brand for purchasing thing by the Online app.</p>
+                        <p class="tech-stack">Tech Stack: JavaScript | HTML | Css</p>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span>  <a href="https://github.com/YogeshSorde/blushing-harmony-5466" target="_blank"> Git Repo </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://flourishing-meerkat-03f2f8.netlify.app/" target="_blank">  Live Site </a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="card">
+                    <div class="box">
+                        <img src="./Images/GladStocks.png " alt="">
+                        <div class="text">GladStocks</div>
+                        <p>This website is a clone of Zerodha Website which is an Online Trading App.</p>
+                        <p class="tech-stack">Tech Stack: Java | MySql | JDBC </p>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span>  <a href="https://github.com/YogeshSorde/savvy-street-3531" target="_blank"> Git Repo </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://youtu.be/W8t1OV6Dec0" target="_blank">  Video   </a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="box">
+                        <img src="./Images/Den_Decor.png  " alt="">
+                        <div class="text">Den Decor</div>
+                        <p>This website is a clone of Online Furniture App, which is a website which helps people to purchase furniture from the website.</p>
+                        <p class="tech-stack">Tech Stack: JavaScript | HTML | Css </p>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span>  <a href="https://github.com/YogeshSorde/Den_Decor" target="_blank"> Git Repo </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://capable-choux-e6b2b2.netlify.app/" target="_blank">  Live Site  </a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
 
 
-  <div class="content-container">
-    <h1>Hii, I'm</h1>
-    <h2>Yogesh  Sorde</h2>
-    <h3>JAVA BACKEND DEVELOPER</h3>
-    <p>Passionate JAVA BACKEND DEVELOPER proficient in java  AND SQL . <br>
-         Seeking to advance a growing tech career as a Web Development Engineer.</p>
 
-    <div class="logo-container">
-      <a href="#"><img src="Email.png.png" alt="Email"></a>
-      <a href="#"><img src="github.png" alt="GitHub"></a>
-      <a href="#"><img src="linkdin.png" alt="LinkedIn"></a>
-      <a href="#"><img src="phone.png.png" alt="Phone"></a>
-    </div>
+                <div class="card">
+                    <div class="box">
+                        <img src="./Images/Buybit Wear.png " alt="">
+                        <div class="text">BuyBit Wear</div>
+                        <p>This is a Clone of a clothing brand which gives the service of buying the clothes Online.</p>
+                        <p class="tech-stack">Tech Stack: JavaScript | HTML | Css </p>
+                        <div class="repo-links">
+                            <div class="repo-div">
+                                <span>  <a href="https://github.com/YogeshSorde/puzzling-tiger-7832" target="_blank"> Git Repo </a></span>
+                            </div>
+                            <div class="demo-div">
+                                <span> <a href="https://luminous-starlight-512cd1.netlify.app/" target="_blank">  Live Site </a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+            </div>
+        </div>
+    </section>
 
-    <a class="resume-button" href="#">Download Resume</a>
-  </div>
-  <div class="content">
-    <h2>About</h2>
-    <p>Hii Everyone, My name is Nikhil Malik and I'm from New Delhi. I have completed my Bachelor of Technology from Delhi Technological University with specialization in Mechanical Engineering. I have also completed a full-time course of Full Stack Web Development from Masai School, Bangalore. Developing many websites using HTML, CSS, JavaScript, React, Node, Express, MongoDB and can learn new software & technologies quickly. Capability to work in teams by providing valuable support. Seeking to advance a growing tech career as a Web Development Engineer.</p>
-    <a class="button" href="your_file_path">Download Resume</a>
-  </div>
+    <!-- Github Statistics -->
+    <section class="gitstats" id="gitstats">
+        
+            <h2 class="title">Github Statistics</h2>
 
+            <div>
+                <img src="./Images/calender.png"/>
+            </div>
+            
+            <div>
+                <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=yogeshsorde&show_icons=true&locale=en&layout=compact" alt="yogeshsorde" />
+            </div>
+            <div>
+                <img align="left" src="https://github-readme-stats.vercel.app/api?username=yogeshsorde&show_icons=true&locale=en" alt="yogeshsorde" />
+            </div>
+            <div>
+                <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yogeshsorde&" alt="yogeshsorde" />
+            </div>
+            <!-- <div>
+                <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yogeshsorde&show_icons=true&locale=en&layout=compact" alt="yogeshsorde" />
+            </div> -->
+        
+
+    </section>
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 style="color: #fff;" class="title">Contact me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get in Touch</div>
+                    <p>Got a project? Reach out and let's work together on something exciting. Big or small. Mobile or web.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <a href=" dineshsorde1997@gmail.com">   <i class="fas fa-envelope"></i> </a>
+                            <div class="info">
+                                <div class="head"></div>
+                                <div class="sub-title">  <a href="dineshsorde1997@gmail.com"> dineshsorde1997@gmail.com </a> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="info">
+                                <div class="head"></div>
+                                <div class="sub-title">  <a href="">+91 - 9665894488</a> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                             <a href="https://www.linkedin.com/in/yogesh-sorde-195486274/" target="_blank"> <i class="fab fa-linkedin"></i> </a>
+                            <div class="info">
+                                <!-- <div class="head">Address</div> -->
+                                <div class="sub-title">  <a href="https://www.linkedin.com/in/yogesh-sorde-195486274/" target="_blank">Linkedin</a> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                             <a href="https://github.com/YogeshSorde" target="_blank"> <i class="fab fa-github"></i> </a>
+                            <div class="info">
+                                <!-- <div class="head">Email</div> -->
+                                <div class="sub-title"> <a href="https://github.com/YogeshSorde" target="_blank" >GitHub</a> </div>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section start -->
+    <footer>
+        <span class="far fa-copyright">Yogesh Sorde</span> 2023 All rights reserved.</span>
+    </footer>
+    
+
+    <script src="script.js"></script>
 </body>
 </html>
+
