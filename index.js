@@ -42,14 +42,17 @@ document.querySelector(".contact").addEventListener("click",()=>{
 })
 
 document.querySelector("#resume-button-1").addEventListener("click",()=>{
-   window.location.href="https://drive.google.com/uc?export=download&id=1aSlQv8e7n5QJFbPWbZdTum3oGNQZPmLP";
-   window.open("https://drive.google.com/file/d/1aSlQv8e7n5QJFbPWbZdTum3oGNQZPmLP/view?usp=share_link","_blank") ;
+   window.location.href="https://drive.google.com/uc?export=download&id=1OSYO0UHmCp_rflSQshtUuh2KsI0wPpiP";
+   window.open("https://drive.google.com/file/d/1OSYO0UHmCp_rflSQshtUuh2KsI0wPpiP/view?usp=share_link","_blank") ;
 })
-// https://drive.google.com/drive/folders/1U-XyAI4s6kDasVSQlzrcVnFwuLU13gIG?usp=sharing
+
+
 document.querySelector("#resume-button-2").addEventListener("click",()=>{
-   window.location.href="https://drive.google.com/uc?export=download&id=1aSlQv8e7n5QJFbPWbZdTum3oGNQZPmLP";
-  window.open("https://drive.google.com/drive/folders/1U-XyAI4s6kDasVSQlzrcVnFwuLU13gIG?usp=sharing","_blank") ;
+   window.location.href="https://drive.google.com/uc?export=download&id=1OSYO0UHmCp_rflSQshtUuh2KsI0wPpiP";
+  window.open("https://drive.google.com/file/d/1OSYO0UHmCp_rflSQshtUuh2KsI0wPpiP/view?usp=share_link","_blank") ;
 })
+
+
 
 
 
