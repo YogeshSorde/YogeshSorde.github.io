@@ -5,7 +5,9 @@
     scroll-behavior: smooth;
     background-color: #161627;
 }
-
+#nav-menu {
+    display: block; /* or any other desired value to make it visible */
+  }
 
 
 /* NavBar Sections */
@@ -66,7 +68,7 @@
 
 #nav-menu>div:nth-child(2)>div:hover{
    /* font-size: larger; */
-    background-color: #5f0443;
+    background-color: #1dd513;
 }
 
 #nav-menu>div:nth-child(2)>div:nth-child(6):hover{
@@ -146,7 +148,7 @@
     border-radius: 10px;
     object-fit: cover;
      font-size: 20px;
-    background-color:#5f0443;
+    background-color:#09b0e8;
      border: none;
     color: white;
     padding: 2px; 
@@ -158,7 +160,7 @@
     height: 100%;
     width: 100%;
     font-size: 20px;
-    background-color: #5f0443;
+    background-color: #1dc4e6;
     border: none;
     /* border-radius: 10px; */
     color: white;
