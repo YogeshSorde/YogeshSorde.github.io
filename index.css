@@ -1013,9 +1013,9 @@
     font-size: x-large;
     margin-top: 4%;
 }
-/* #menu{
-    display: none------------------------;
-} */
+#menu{
+    display: none;
+} 
 
 .none{
     display: none;
@@ -1060,9 +1060,9 @@
     
 
 
-    /* #projects{
-        display: none-----------------------------;
-    } */
+    #projects{
+        display: none;
+    }
 
     #res-projects{
         display: block;
@@ -1168,16 +1168,16 @@
     }
     
     #nav-menu>div:nth-child(2){
-        width: 50%;
+        width: 39%;
         position: absolute;
         right: 0;
         top: 0;
         height: 100vh;
-        /* display: none; ----------------------------------------------*/
+        display: none; 
         /* padding: 10px; */
         /* border: 1px solid brown; */
         flex-direction: column;
-        background-color: rgb(189, 15, 15);
+        background-color: black;
         justify-content: space-evenly;
         align-items: center;
         text-align: center;
