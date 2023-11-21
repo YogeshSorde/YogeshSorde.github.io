@@ -1251,6 +1251,11 @@
         width: 80%;
     }
 
+    .hid_project_image{
+
+height: auto;
+
+    }
     #skills>div:nth-child(2) {
         /* Tablet-specific styles */
         margin-top: 3%;
@@ -1303,6 +1308,11 @@
         padding: 3%;
     }
 
+    .hid_project_image{
+
+        height: auto;
+        
+            }
     #nav-menu>div:nth-child(2)>div:nth-child(6) {
         /* Mobile-specific styles */
         padding: 3px 8px 3px 8px;
