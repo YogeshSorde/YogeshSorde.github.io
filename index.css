@@ -1211,7 +1211,7 @@
 @media (min-width: 992px) {
     #home>div>div:nth-child(1)>img{
         height: 100%;
-         width: 300%;
+         width: 100%;
          border-radius: 100%;
          object-fit:cover;
      
