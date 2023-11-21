@@ -34,12 +34,11 @@ document.querySelector("#lkdn").addEventListener("click" , ()=>{
    window.open("https://www.linkedin.com/in/yogesh-sorde-195486274/","_blank");
 })
 
-
-
 document.querySelector(".contact").addEventListener("click",()=>{
    document.querySelector("#contact").scrollIntoView();
   
 })
+
 
 document.querySelector("#resume-button-1").addEventListener("click",()=>{
    window.location.href="https://drive.google.com/uc?export=download&id=1OSYO0UHmCp_rflSQshtUuh2KsI0wPpiP";
