@@ -118,7 +118,7 @@
 #home>div>div:nth-child(1)>img{
    height: 100%;
     width: 100%;
-    border-radius: 100%;
+    border-radius: 00%;
     object-fit:cover;
 
     /* background-color: #045f12; */
@@ -1214,4 +1214,25 @@
         height: auto;
         
             }
+
+            #home>div>div:nth-child(1)>img{
+                height: 100%;
+                 width: 150%;
+                 border-radius: 00%;
+                 object-fit:cover;
+                 justify-content: center;
+             
+                 /* background-color: #045f12; */
+             }
+             #home>div>div:nth-child(1){
+                /* height: 100%;
+                 width: 150%;
+                 border-radius: 00%;
+                 object-fit:cover; */
+                 justify-content: center;
+                 margin-right: 30px;
+             
+                 /* background-color: #045f12; */
+             }
+             
 }
