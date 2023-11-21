@@ -1269,14 +1269,14 @@ height: auto;
         width: 60%;
     }
 
-    #home>div>div:nth-child(1)>img{
+    /* #home>div>div:nth-child(1)>img{
         height: 100%;
          width: 100%;
          border-radius: 50%;
          object-fit:cover;
      
       
-     }
+     } */
 }
 
 /* Mobile Styles */
@@ -1359,7 +1359,7 @@ height: auto;
         /* Mobile-specific styles */
         width: 80%;
     }
-    #home>div>div:nth-child(1)>img{
+    /* #home>div>div:nth-child(1)>img{
         height: 100%;
          width: 150%;
          border-radius: 100%;
@@ -1377,5 +1377,5 @@ height: auto;
         justify-content: center;
   
     
-    }
+    } */
 }
