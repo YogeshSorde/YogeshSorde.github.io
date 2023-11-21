@@ -1212,7 +1212,7 @@
     #home>div>div:nth-child(1)>img{
         height: 100%;
          width: 100%;
-         border-radius: 100%;
+         border-radius: 50%;
          object-fit:cover;
      
          /* background-color: #045f12; */
